@@ -1,0 +1,49 @@
+body {
+    margin: 10px;
+    font-family: 'Abel';
+    text-align: center;
+    width: 580px;
+  }
+  
+  .container {
+    background-color: orange;
+    display: grid;
+    grid-template-columns: 180px 180px 180px;
+    grid-gap: 10px;
+    padding: 5px;
+  }
+  
+  .item {
+    color: white;
+    padding: 1.5em 0;
+    font-size: 2em;
+  }
+  
+  .a {
+    background: rgb(221, 0, 52);
+  }
+  
+  .b {
+    background: #d90;
+  }
+  
+  .c {
+    background: rgb(56, 16, 50);
+  }
+  
+  .d {
+    background: rgb(54, 143, 29);
+  }
+  
+  .e {
+    background: rgb(188, 166, 225);
+  }
+  
+  .f {
+    background: rgb(56, 15, 117);
+  }
+  
+  .c {
+    grid-row: 2 / 4;
+    grid-column: 2 / 4;
+  }
